@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS "tracks" (
+	"id" serial PRIMARY KEY NOT NULL,
+	"track_id" text,
+	"artists" text,
+	"album_name" text,
+	"track_name" text,
+	"popularity" integer,
+	"duration_ms" integer,
+	"explicit" boolean,
+	"danceability" numeric,
+	"energy" numeric,
+	"key" integer,
+	"loudness" numeric,
+	"mode" integer,
+	"speechiness" numeric,
+	"acousticness" numeric,
+	"instrumentalness" numeric,
+	"liveness" numeric,
+	"valence" numeric,
+	"tempo" numeric,
+	"time_signature" integer,
+	"track_genre" text
+);
